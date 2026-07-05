@@ -1,0 +1,3 @@
+<h1>User: {{ object.username }}</h1>
+<p>Email: {{ object.email }}</p>
+<a href="{% url 'accounts:user-update' object.pk %}">Edit user</a>
